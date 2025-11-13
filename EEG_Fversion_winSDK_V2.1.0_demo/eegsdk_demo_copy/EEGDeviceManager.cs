@@ -70,6 +70,8 @@ namespace EEG2DVisualizer
             if (!_deviceList.Exists(d => d.BluetoothAddress == device.BluetoothAddress))
             {
                 _deviceList.Add(device);
+                // 添加调试输出，确认设备被正确发现并触发事件
+                System.Diagnostics.Debug.WriteLine($"设备已添加到列表：{device.Name}（地址：{device.BluetoothAddress}）");
                 DeviceFound?.Invoke(device);
             }
         }
@@ -101,6 +103,7 @@ namespace EEG2DVisualizer
         {
             _deviceList.Clear();
             _bleManager.scanDevice();
+            System.Diagnostics.Debug.WriteLine("开始扫描设备..."); // 增加日志输出
         }
 
         public void StopScanning()

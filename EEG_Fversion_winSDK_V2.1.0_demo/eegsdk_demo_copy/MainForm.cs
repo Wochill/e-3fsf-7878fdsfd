@@ -37,11 +37,17 @@ namespace EEG2DVisualizer
         {
             if (comboBoxDevices.InvokeRequired)
             {
-                comboBoxDevices.Invoke(new Action<BluetoothLEDevice>(OnDeviceFound), device);
+                // 改用BeginInvoke异步更新，避免阻塞扫描线程
+                comboBoxDevices.BeginInvoke(new Action<BluetoothLEDevice>(OnDeviceFound), device);
                 return;
             }
 
-            comboBoxDevices.Items.Add($"{device.Name} ({device.BluetoothAddress})");
+            // 处理设备名称为空的情况，添加默认名称
+            string deviceName = string.IsNullOrWhiteSpace(device.Name) ? "Unknown Device" : device.Name;
+            // 保持与原项目一致的显示格式（空格分隔），避免格式差异导致的识别问题
+            comboBoxDevices.Items.Add($"{deviceName}  {device.BluetoothAddress}");
+            // 显式刷新下拉列表，确保UI即时更新
+            comboBoxDevices.Refresh();
         }
 
         private void OnConnectionStateChanged()
@@ -194,6 +200,11 @@ namespace EEG2DVisualizer
 
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart2DPlane_Click(object sender, EventArgs e)
         {
 
         }
