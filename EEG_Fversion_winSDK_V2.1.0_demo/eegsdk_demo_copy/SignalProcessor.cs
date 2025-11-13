@@ -25,8 +25,8 @@ namespace EEG2DVisualizer
         public (double X, double Y) ConvertToCoordinates(double channel1, double channel2)
         {
             // 限制输入信号范围
-            double clampedX = Math.Clamp(channel1, XMin, XMax);
-            double clampedY = Math.Clamp(channel2, YMin, YMax);
+            double clampedX = Clamp(channel1, XMin, XMax);
+            double clampedY = Clamp(channel2, YMin, YMax);
 
             // 归一化到0-1范围
             double normalizedX = (clampedX - XMin) / (XMax - XMin);
@@ -52,6 +52,14 @@ namespace EEG2DVisualizer
             }
 
             return (x, y);
+        }
+
+        // 添加Clamp方法以兼容旧版.NET
+        private static double Clamp(double value, double min, double max)
+        {
+            if (value < min) return min;
+            if (value > max) return max;
+            return value;
         }
     }
 }

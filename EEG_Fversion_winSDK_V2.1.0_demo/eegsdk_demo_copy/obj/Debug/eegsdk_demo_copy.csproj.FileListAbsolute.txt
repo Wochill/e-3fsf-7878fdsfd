@@ -1,0 +1,15 @@
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\eegsdk_demo_copy.csproj.AssemblyReference.cache
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\EEG2DVisualizer.MainForm.resources
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\eegsdk_demo_copy.Properties.Resources.resources
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\eegsdk_demo_copy.csproj.GenerateResource.cache
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\eegsdk_demo_copy.csproj.CoreCompileInputs.cache
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin\Debug\eegsdk_demo_copy.exe.config
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin\Debug\eegsdk_demo_copy.exe
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin\Debug\eegsdk_demo_copy.pdb
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin\Debug\KSEEG_Fversion_Lib.dll
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin\Debug\Newtonsoft.Json.dll
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin\Debug\Windows.winmd
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin\Debug\Newtonsoft.Json.xml
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\eegsdk_d.F9247FDB.Up2Date
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\eegsdk_demo_copy.exe
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\Debug\eegsdk_demo_copy.pdb

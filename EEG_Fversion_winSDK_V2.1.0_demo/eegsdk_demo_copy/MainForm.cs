@@ -154,16 +154,49 @@ namespace EEG2DVisualizer
             _deviceManager.Disconnect();
         }
 
-        private void InitializeComponent()
+
+        private void MainForm_Load(object sender, EventArgs e)
         {
-            this.SuspendLayout();
-            // 
-            // MainForm
-            // 
-            this.ClientSize = new System.Drawing.Size(1044, 604);
-            this.Name = "MainForm";
-            this.ResumeLayout(false);
 
         }
+
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
