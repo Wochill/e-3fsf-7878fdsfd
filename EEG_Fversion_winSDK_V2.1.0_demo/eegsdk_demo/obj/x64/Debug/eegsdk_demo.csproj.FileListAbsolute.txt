@@ -31,6 +31,10 @@ D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\Debug\Newtonsoft.Json.dll
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\Debug\Newtonsoft.Json.xml
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.csproj.AssemblyReference.cache
+<<<<<<< HEAD
+=======
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.exe.config
+>>>>>>> aeb8ee972b161869a6c33d9f6a1934a459fcf9d7
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.Form1.resources
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.Properties.Resources.resources
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.csproj.GenerateResource.cache
