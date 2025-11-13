@@ -312,5 +312,10 @@ namespace eegsdk_demo
                 textBox4.Text = version;
             });
         }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

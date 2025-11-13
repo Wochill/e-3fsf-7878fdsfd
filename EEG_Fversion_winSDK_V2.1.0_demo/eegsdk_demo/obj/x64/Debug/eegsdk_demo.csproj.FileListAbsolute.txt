@@ -25,3 +25,17 @@ C:\Users\admin\Desktop\allapkfile\C#_sdk\x64\KSEEG_Fversion\eegsdk_demo\eegsdk_d
 C:\Users\admin\Desktop\allapkfile\C#_sdk\x64\KSEEG_Fversion\eegsdk_demo\eegsdk_demo\bin\x64\Debug\Newtonsoft.Json.xml
 C:\Users\admin\Desktop\allapkfile\C#_sdk\x64\KSEEG_Fversion\eegsdk_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.csproj.CopyComplete
 C:\Users\admin\Desktop\allapkfile\C#_sdk\x64\KSEEG_Fversion\eegsdk_demo\eegsdk_demo\bin\x64\Debug\KSEEG_Fversion_Lib.dll
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\Debug\eegsdk_demo.exe.config
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\Debug\eegsdk_demo.exe
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\Debug\eegsdk_demo.pdb
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\Debug\Newtonsoft.Json.dll
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\bin\x64\Debug\Newtonsoft.Json.xml
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.csproj.AssemblyReference.cache
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.exe.config
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.Form1.resources
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.Properties.Resources.resources
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.csproj.GenerateResource.cache
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.csproj.CoreCompileInputs.cache
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_d.342455D3.Up2Date
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.exe
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo\obj\x64\Debug\eegsdk_demo.pdb

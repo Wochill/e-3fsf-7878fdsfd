@@ -11,6 +11,8 @@ namespace EEG2DVisualizer
         private readonly BleManager _bleManager;
         private BluetoothLEDevice _selectedDevice;
         private List<BluetoothLEDevice> _deviceList = new List<BluetoothLEDevice>();
+        // 新增：用于跟踪连接状态的本地变量
+        private bool _isConnected;
 
         // 事件定义
         public event Action<BluetoothLEDevice> DeviceFound;
@@ -18,7 +20,8 @@ namespace EEG2DVisualizer
         public event Action<double, double> ChannelDataReceived;
         public event Action<string> ErrorOccurred;
 
-        public bool IsConnected => _bleManager != null && _bleManager.IsConnected;
+        // 修改：通过本地状态变量判断连接状态
+        public bool IsConnected => _isConnected;
         public IReadOnlyList<BluetoothLEDevice> Devices => _deviceList.AsReadOnly();
 
         public EEGDeviceManager()
@@ -71,18 +74,24 @@ namespace EEG2DVisualizer
             }
         }
 
+        // 修改：连接成功时更新状态
         private void OnConnected()
         {
+            _isConnected = true;
             ConnectionStateChanged?.Invoke();
         }
 
+        // 修改：断开连接时更新状态
         private void OnDisconnected()
         {
+            _isConnected = false;
             ConnectionStateChanged?.Invoke();
         }
 
+        // 修改：连接失败时更新状态
         private void OnConnectFailed()
         {
+            _isConnected = false;
             ErrorOccurred?.Invoke("连接设备失败");
             ConnectionStateChanged?.Invoke();
         }
@@ -118,6 +127,8 @@ namespace EEG2DVisualizer
                 _selectedDevice = null;
             }
             _bleManager.disconnectDevice();
+            // 确保断开连接后状态更新
+            _isConnected = false;
         }
 
         public void SetMagnification(int level)

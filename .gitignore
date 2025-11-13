@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/EEG_Fversion_winSDK_V2.1.0_demo/.vs
+/EEG_Fversion_winSDK_V2.1.0_demo/eegsdk_demo/.vs
+/EEG_Fversion_winSDK_V2.1.0_demo/eegsdk_demo_copy/.vs

@@ -90,6 +90,7 @@
             title1.Name = "Title1";
             title1.Text = "data";
             this.chart1.Titles.Add(title1);
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
             // 
             // button1
             // 
