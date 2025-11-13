@@ -11,3 +11,4 @@ D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\bin
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\x64\Debug\eegsdk_d.F9247FDB.Up2Date
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\x64\Debug\eegsdk_demo_copy.exe
 D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\x64\Debug\eegsdk_demo_copy.pdb
+D:\MI\band\e-3fsf-7878fdsfd\EEG_Fversion_winSDK_V2.1.0_demo\eegsdk_demo_copy\obj\x64\Debug\eegsdk_demo_copy.exe.config
